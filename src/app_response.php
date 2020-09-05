@@ -71,7 +71,7 @@ class App_Response  {
 			break;
 		
 		default:
-			$success = TRUE;
+			$success = FALSE;
 			$response = '000';
 			$responseDescription = 'Unknown application response request.';
 		
